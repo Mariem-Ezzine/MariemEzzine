@@ -1,4 +1,4 @@
-# 🔎 YOLOv8 + DeepSORT Multi-Object Tracking with Metrics
+# YOLOv8 + DeepSORT Multi-Object Tracking with Metrics
 
 This module performs real-time multi-object tracking using:
 - **YOLOv8** for object detection
@@ -12,7 +12,7 @@ This module performs real-time multi-object tracking using:
 
 ---
 
-### 📌 Run
+### Run
 ```bash
 python deep_sort_tracker.py
 
@@ -22,7 +22,7 @@ Then:
 2️⃣ Type an experiment name
 3️⃣ Choose number of frames to analyze
 
-📁 Output Structure
+Output Structure
 tracking_results_<name>/
  ├── videos/ (annotated tracking)
  ├── plots/ (IoU / MOTA / IDF1 curves)
@@ -35,7 +35,7 @@ Thus metrics are simulated for visualization only:
 
 Not valid for benchmarking — demonstration purpose for code structure only
 
-🧠 Improvements Planned
+Improvements Planned
 
 Real evaluation using MOTChallenge datasets
 
